@@ -11,7 +11,7 @@ setuptools.setup(
     description="produce fake data to kafka",
     long_description="produce fake data to kafka, support csv and json",
     long_description_content_type="text/markdown",
-    url="https://github.com/zqWu/faker-to-kafka",
+    url="https://github.com/zqWu/faker_to_kafka",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
