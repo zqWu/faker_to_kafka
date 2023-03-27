@@ -1,0 +1,29 @@
+kafka:
+  topic: topic01
+  bootstrap_servers: 10.201.0.82:9092,10.201.0.83:9092,10.201.0.84:9092
+
+fake:
+  locale: en_US
+
+# json | csv
+format: csv
+
+# 0 = unlimited
+max: 3
+frequency: 1
+
+fields:
+  # case1: field_name=country, provider=country, args=None
+  - country
+  - name
+  - email
+
+  # case2: field_name=date, provider=date, args={ pattern='%Y-%m-%d %H:%M:%S' }
+  - created_at: date
+    pattern: '%Y-%m-%d %H:%M:%S'
+
+  # case3: field_name=data2, provider=date, args={ min_value=1, max_value=10, step=1}
+  - id: pyint
+    min_value: 1
+    max_value: 10
+    step: 1
