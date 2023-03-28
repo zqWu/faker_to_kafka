@@ -18,10 +18,6 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.8',
-    install_requires=[
-        "Faker==17.0.0",
-        "kafka-python==2.0.2",
-        "PyYAML==6.0"
-    ],
+    python_requires=">=3.8",
+    install_requires=["Faker==17.0.0", "kafka-python==2.0.2", "PyYAML==6.0"],
 )

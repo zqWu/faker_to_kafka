@@ -3,7 +3,6 @@ from .json_generator import JsonGenerator
 
 
 class GeneratorFactory:
-
     @staticmethod
     def create(_format: str, faker, fields_conf):
         if _format == "csv":

@@ -44,7 +44,7 @@ def gen_config(file_path):
         conf["format"],
         conf["max"],
         1.0 / conf["frequency"],
-        _parse_field(conf["fields"])
+        _parse_field(conf["fields"]),
     )
 
 
