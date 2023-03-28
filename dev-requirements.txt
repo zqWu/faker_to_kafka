@@ -1,0 +1,5 @@
+Faker==17.0.0
+kafka-python==2.0.2
+PyYAML==6.0
+pre-commit
+mypy==0.782
